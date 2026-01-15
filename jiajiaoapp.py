@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # --- 1. 页面配置 ---
-st.set_page_config(page_title="精英家教库", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="大连理工大学学生家教库", page_icon="🎓", layout="wide")
 
 # --- 2. 加载数据 ---
 @st.cache_data
@@ -17,7 +17,7 @@ def load_data():
 # --- 3. 主程序 ---
 def main():
     st.title("🎓 大连理工大学精英家教")
-    st.caption("理工学霸 · 严格筛选 · 价格面议")
+    st.caption("理工学霸 · 严格筛选 · 品质服务")
     st.caption("由理工本科在读学生果果整理制作")
 
     # 读取数据
