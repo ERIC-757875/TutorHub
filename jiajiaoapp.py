@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # --- 1. 页面配置 ---
-st.set_page_config(page_title="精英家教库", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="大连理工大学学生家教库", page_icon="🎓", layout="wide")
 
 # --- 2. 加载数据 ---
 @st.cache_data
