@@ -1,6 +1,6 @@
 import pandas as pd
 
-# 基于你提供的简历模板设计的结构
+# --- 已删除价格列，专注于老师素质展示 ---
 data = {
     'Name': ['潘腾波', '李想', '王若琳'],
     'Gender': ['男', '男', '女'],
@@ -20,8 +20,9 @@ data = {
         '1.曾在辅导机构带过暑期初二物理集训班。\n2.一对一辅导过两名中考学生，数学均提分20+。',
         '1.长期辅导小学弟学妹英语作业。\n2.曾在新东方担任兼职助教。'
     ]
+    # Price 列已彻底移除
 }
 
 df = pd.DataFrame(data)
 df.to_excel('data.xlsx', index=False)
-print("✅ 新的 data.xlsx 已生成！包含了所有的简历字段。")
+print("✅ 新的无价格版 data.xlsx 已生成！")
